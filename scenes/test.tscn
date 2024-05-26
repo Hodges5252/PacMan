@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckea4lpxh8bop"]
+
+[ext_resource type="PackedScene" uid="uid://cpon22xh3oh08" path="res://scenes/pacman.tscn" id="1_krr00"]
+
+[node name="test" type="Node2D"]
+
+[node name="pacman" parent="." instance=ExtResource("1_krr00")]
+position = Vector2(262, 222)
